@@ -58,4 +58,4 @@ Modules/Gift/Routes/api.php
 ##### - 请git clone该项目 实现解决方案的伪代码
 
 ## 加分项
-##### 请使用golang进行重构逻辑实现核心逻辑伪代码即可
+##### 请使用golang进行重构逻辑实现核心逻辑伪代码
