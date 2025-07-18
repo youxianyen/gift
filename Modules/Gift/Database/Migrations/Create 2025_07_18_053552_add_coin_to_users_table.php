@@ -14,7 +14,7 @@ class AddCoinToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->decimal('coin', 12, 2)->default(0.00)->comment('用户钱包余额');
         });
     }
 
@@ -26,7 +26,7 @@ class AddCoinToUsersTable extends Migration
     public function down()
     {
         Schema::table('users', function (Blueprint $table) {
-            //
+            $table->dropColumn('coin');
         });
     }
 }
